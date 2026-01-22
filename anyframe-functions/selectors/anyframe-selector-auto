@@ -21,11 +21,11 @@ if [[ $selector_mode != 'peco' ]] &&
     selector_mode='peco'
   elif which percol > /dev/null 2>&1; then
     selector_mode='percol'
-  elif which fzf-tmux > /dev/null 2>&1; then
+  elif which fzf tmux > /dev/null 2>&1; then
     selector_mode='fzf-tmux'
   elif which fzf > /dev/null 2>&1; then
     selector_mode='fzf'
-  elif which sk-tmux > /dev/null 2>&1; then
+  elif which sk tmux > /dev/null 2>&1; then
     selector_mode='skim-tmux'
   elif which sk > /dev/null 2>&1; then
     selector_mode='skim'
