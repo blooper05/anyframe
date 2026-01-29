@@ -1,0 +1,9 @@
+anyframe-source-git-wt \
+  | anyframe-selector-auto \
+  | awk '{print $(NF-1)}' \
+  | anyframe-action-execute git wt
+
+# Local Variables:
+# mode: Shell-Script
+# End:
+# vim: ft=zsh

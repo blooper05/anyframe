@@ -1,0 +1,8 @@
+# require git-wt (https://github.com/k1LoW/git-wt)
+
+git wt | tail -n +2
+
+# Local Variables:
+# mode: Shell-Script
+# End:
+# vim: ft=zsh
