@@ -1,0 +1,8 @@
+# require ghq (https://github.com/motemen/ghq) and roots (https://github.com/k1LoW/roots)
+
+ghq list --full-path | roots --parent=0 --depth=4 --root-file=.git
+
+# Local Variables:
+# mode: Shell-Script
+# End:
+# vim: ft=zsh
