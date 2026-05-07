@@ -32,13 +32,6 @@ autoload -Uz anyframe-init
 anyframe-init
 ```
 
-### Installing using Antigen
-If you use [Antigen](https://github.com/zsh-users/antigen), add the following line to your .zshrc:
-
-```
-antigen bundle mollifier/anyframe
-```
-
 ### keybind
 You can map anyframe widgets to whatever key you like.
 
